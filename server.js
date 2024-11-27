@@ -1,7 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const apiRouter = require('./routes/apiRouter');  // 라우터 파일 import
+const apiRouter = require('./routes/apiRouter');
+const dbRouter = require('./routes/dbRouter');
 const app = express();
 
 // CORS 설정
@@ -10,6 +11,7 @@ app.use(bodyParser.json());  // JSON 파싱
 
 // 라우터 연결
 app.use('/api', apiRouter);  
+app.use('/db', dbRouter);
 
 // 정적 파일 제공 (public 폴더)
 app.use(express.static('public'));
