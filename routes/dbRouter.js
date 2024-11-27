@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const supabase = require('../db/supabase');  // Supabase 클라이언트 불러오기
+const supabase = require('../db/supabase');  
 
 router.get('/getData', async (req, res) => {
 
