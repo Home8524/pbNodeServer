@@ -2,11 +2,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
-const port = 3000;
 
 // CORS 설정
 app.use(cors());
 app.use(bodyParser.json());  // JSON 파싱
+
+app.use(express.static("public"));
 
 app.get('/api/get', (req, res) => {
     console.log('Received GET request at /api/get');
@@ -30,6 +31,5 @@ app.post('/post', (req, res) => {
         receivedData: requestData
     });
 });
-
 
 module.exports = app;  // Vercel에서 이 파일을 실행함
