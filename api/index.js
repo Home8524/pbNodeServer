@@ -1,14 +1,18 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const cors = require('cors');
 const app = express();
 const port = 3000;
 
 // CORS 설정
 app.use(cors());
+app.use(bodyParser.json());  // JSON 파싱
 
-// JSON 본문 파싱을 위한 미들웨어 설정
-app.use(express.json());  // 반드시 이 미들웨어가 필요합니다.
+app.get('/', (req, res) => {
+    res.send('Hello, Unity Server!');
+  });
 
+  
 // 예시 GET 요청
 app.get('/api/get', (req, res) => {
     res.json({ message: 'Hello from Node.js server!' });
@@ -32,3 +36,6 @@ app.post('/api/post', (req, res) => {
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
 });
+
+
+module.exports = app;  // Vercel에서 이 파일을 실행함
