@@ -11,15 +11,11 @@ app.use(express.static("public"));
 
 app.get('/api/get', (req, res) => {
     console.log('Received GET request at /api/get');
-});
-
-// 예시 GET 요청
-app.get('/get', (req, res) => {
-    console.log('Received GET request at /api/get');
+    res.json({ message: 'GET request received' });  // 응답을 추가합니다.
 });
 
 // POST 요청 처리
-app.post('/post', (req, res) => {
+app.post('/api/post', (req, res) => {
     // 클라이언트에서 보낸 데이터 받기
     const requestData = req.body;
 
