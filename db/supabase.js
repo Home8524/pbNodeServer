@@ -6,4 +6,6 @@ const supabaseKey = process.env.SUPABASE_KEY;
 
 const supabase = createClient(supabaseUrl, supabaseKey);
 
+console.log(supabase);  // supabase 객체 확인
+
 export default supabase;

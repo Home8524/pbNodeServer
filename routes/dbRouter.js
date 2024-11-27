@@ -4,14 +4,6 @@ const supabase = require('../db/supabase');  // Supabase 클라이언트 불러�
 
 router.get('/getData', async (req, res) => {
 
-    const supabaseUrl = process.env.SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_KEY;
-
-    return res.json({
-        supabaseUrl: supabaseUrl,
-        supabaseKey: supabaseKey
-    });
-
     try {
         // Supabase에서 상위 30개의 데이터 가져오기
         const { data, error } = await supabase
