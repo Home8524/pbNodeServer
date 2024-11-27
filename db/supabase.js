@@ -4,9 +4,6 @@ import { createClient } from '@supabase/supabase-js';
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 
-console.log('Supabase URL:', supabaseUrl);  // 확인을 위해 로그 출력
-console.log('Supabase Key:', supabaseKey);  // 확인을 위해 로그 출력
-
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default supabase;
