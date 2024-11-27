@@ -8,6 +8,10 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());  // JSON 파싱
 
+app.get('/api/get', (req, res) => {
+    console.log('Received GET request at /api/get');
+});
+
 // 예시 GET 요청
 app.get('/get', (req, res) => {
     console.log('Received GET request at /api/get');
