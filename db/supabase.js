@@ -1,9 +1,9 @@
-// api/supabase.js
-import { createClient } from '@supabase/supabase-js';
+// Supabase 클라이언트 초기화
+const { createClient } = require('@supabase/supabase-js');
 
-// Vercel 환경 변수에서 Supabase URL과 API Key 가져오기
+// 환경 변수에서 Supabase URL과 키를 가져옵니다.
 const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_KEY;
+const supabaseKey = process.env.SUPABASE_ANON_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default supabase;
