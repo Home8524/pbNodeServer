@@ -12,20 +12,20 @@ router.get('/getData', async (req, res) => {
             .limit(30);  // 상위 30개 데이터만 가져오기
 
         if (error) {
-            return res.status(500).json({
+            return res.json({
                 message: 'Error fetching data from Supabase',
                 error: error.message
             });
         }
 
         // 데이터를 클라이언트에 응답
-        return res.status(200).json({
+        return res.json({
             message: 'Data fetched successfully!',
             receivedData: data
         });
     } catch (err) {
         console.error(err);
-        return res.status(500).json({
+        return res.json({
             message: 'Something went wrong while fetching data',
             error: err.message
         });
