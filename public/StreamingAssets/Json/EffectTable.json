@@ -1,4 +1,22 @@
 {
     "effects": [
+        {
+            "id": 1,
+            "path": "Prefabs/VFX/Player Explosion",
+            "name": "detroyPlayer",
+            "poolCount": 1
+        },
+        {
+            "id": 2,
+            "path": "Prefabs/VFX/Enemy Explosion",
+            "name": "enemy1Destroy",
+            "poolCount": 50
+        },
+        {
+            "id": 3,
+            "path": "Prefabs/VFX/Lazer Ray Hit Effect",
+            "name": "enemy1Hit",
+            "poolCount": 50
+        }
     ]
 }

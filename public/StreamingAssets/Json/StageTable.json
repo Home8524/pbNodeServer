@@ -1,0 +1,80 @@
+{
+    "stageList":[
+        {
+            "enemies":[
+                {
+                    "id":300,
+                    "timeToStart": 0
+                },
+                {
+                    "id":301,
+                    "timeToStart": 4
+                },
+                {
+                    "id":302,
+                    "timeToStart": 8
+                },
+                {
+                    "id":303,
+                    "timeToStart": 12
+                },
+                {
+                    "id":304,
+                    "timeToStart": 16
+                },
+                {
+                    "id":300,
+                    "timeToStart": 20
+                },
+                {
+                    "id":305,
+                    "timeToStart": 24
+                },
+                {
+                    "id":301,
+                    "timeToStart": 27
+                },
+                {
+                    "id":302,
+                    "timeToStart": 31
+                },
+                {
+                    "id":303,
+                    "timeToStart": 34
+                },
+                {
+                    "id":304,
+                    "timeToStart": 37
+                },
+                {
+                    "id":300,
+                    "timeToStart": 40
+                },
+                {
+                    "id":305,
+                    "timeToStart": 42
+                },
+                {
+                    "id":301,
+                    "timeToStart": 44
+                },
+                {
+                    "id":302,
+                    "timeToStart": 46
+                },
+                {
+                    "id":303,
+                    "timeToStart": 48
+                },
+                {
+                    "id":304,
+                    "timeToStart": 50
+                },
+                {
+                    "id":305,
+                    "timeToStart": 52
+                }
+            ]
+        }
+    ]
+}
