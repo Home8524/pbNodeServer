@@ -2,13 +2,38 @@
     "objects": [
         {
             "id": 1,
-            "path": "Prefabs/projectiles/Player_Short_Lazer",
+            "path": "Prefabs/projectile/player_lazer1",
             "poolCount": 50
         },
         {
             "id": 2,
-            "path": "Prefabs/projectiles/Enemy_Straight_Projetile",
-            "poolCount": 30
+            "path": "Prefabs/projectile/player_lazer2",
+            "poolCount": 50
+        },
+        {
+            "id": 3,
+            "path": "Prefabs/projectile/player_plasma1",
+            "poolCount": 50
+        },
+        {
+            "id": 4,
+            "path": "Prefabs/projectile/player_plasma2",
+            "poolCount": 50
+        },
+        {
+            "id": 5,
+            "path": "Prefabs/projectile/player_plasma3",
+            "poolCount": 50
+        },
+        {
+            "id": 6,
+            "path": "Prefabs/projectile/player_plasma4",
+            "poolCount": 50
+        },
+        {
+            "id": 7,
+            "path": "Prefabs/projectile/Enemy_Straight_Projetile",
+            "poolCount": 50
         },
         {
             "id": 100,

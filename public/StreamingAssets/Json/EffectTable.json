@@ -17,6 +17,42 @@
             "path": "Prefabs/VFX/Lazer Ray Hit Effect",
             "name": "enemy1Hit",
             "poolCount": 50
+        },
+        {
+            "id": 100,
+            "path": "Prefabs/VFX/Lazer1_Hit",
+            "name": "Lazer1_Hit",
+            "poolCount": 50
+        },
+        {
+            "id": 101,
+            "path": "Prefabs/VFX/Lazer2_Hit",
+            "name": "Lazer2_Hit",
+            "poolCount": 50
+        },
+        {
+            "id": 102,
+            "path": "Prefabs/VFX/Plasma1_Hit",
+            "name": "Plasma1_Hit",
+            "poolCount": 50
+        },
+        {
+            "id": 103,
+            "path": "Prefabs/VFX/Plasma2_Hit",
+            "name": "Plasma2_Hit",
+            "poolCount": 50
+        },
+        {
+            "id": 104,
+            "path": "Prefabs/VFX/Plasma3_Hit",
+            "name": "Plasma3_Hit",
+            "poolCount": 50
+        },
+        {
+            "id": 105,
+            "path": "Prefabs/VFX/Plasma4_Hit",
+            "name": "Plasma4_Hit",
+            "poolCount": 50
         }
     ]
 }
