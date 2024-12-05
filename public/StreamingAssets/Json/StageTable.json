@@ -3,77 +3,106 @@
         {
             "enemies":[
                 {
-                    "id":300,
+                    "waveID":300,
+                    "enemyID": 200,
                     "timeToStart": 0
                 },
                 {
-                    "id":301,
-                    "timeToStart": 4
+                    "waveID":301,
+                    "enemyID": 201,
+                    "timeToStart": 3
                 },
                 {
-                    "id":302,
-                    "timeToStart": 8
+                    "waveID":302,
+                    "enemyID": 200,
+                    "timeToStart": 6
                 },
                 {
-                    "id":303,
-                    "timeToStart": 12
+                    "waveID":303,
+                    "enemyID": 200,
+                    "timeToStart": 11
                 },
                 {
-                    "id":304,
+                    "waveID":304,
+                    "enemyID": 202,
                     "timeToStart": 16
                 },
                 {
-                    "id":300,
-                    "timeToStart": 20
+                    "waveID":307,
+                    "enemyID": 203,
+                    "timeToStart": 19
                 },
                 {
-                    "id":305,
-                    "timeToStart": 24
+                    "waveID":300,
+                    "enemyID": 200,
+                    "timeToStart": 23
                 },
                 {
-                    "id":301,
-                    "timeToStart": 27
+                    "waveID":305,
+                    "enemyID": 201,
+                    "timeToStart": 26
                 },
                 {
-                    "id":302,
-                    "timeToStart": 31
+                    "waveID":301,
+                    "enemyID": 202,
+                    "timeToStart": 33
                 },
                 {
-                    "id":303,
-                    "timeToStart": 34
+                    "waveID":307,
+                    "enemyID": 204,
+                    "timeToStart": 36
                 },
                 {
-                    "id":304,
-                    "timeToStart": 37
+                    "waveID":303,
+                    "enemyID": 200,
+                    "timeToStart": 39
                 },
                 {
-                    "id":300,
-                    "timeToStart": 40
+                    "waveID":306,
+                    "enemyID": 203,
+                    "timeToStart": 41
                 },
                 {
-                    "id":305,
-                    "timeToStart": 42
-                },
-                {
-                    "id":301,
-                    "timeToStart": 44
-                },
-                {
-                    "id":302,
+                    "waveID":300,
+                    "enemyID": 205,
                     "timeToStart": 46
                 },
                 {
-                    "id":303,
-                    "timeToStart": 48
-                },
-                {
-                    "id":304,
+                    "waveID":305,
+                    "enemyID": 200,
                     "timeToStart": 50
                 },
                 {
-                    "id":305,
-                    "timeToStart": 52
+                    "waveID":301,
+                    "enemyID": 200,
+                    "timeToStart": 55
+                },
+                {
+                    "waveID":302,
+                    "enemyID": 201,
+                    "timeToStart": 58
+                },
+                {
+                    "waveID":306,
+                    "enemyID": 203,
+                    "timeToStart": 61
+                },
+                {
+                    "waveID":303,
+                    "enemyID": 202,
+                    "timeToStart": 63
+                },
+                {
+                    "waveID":304,
+                    "enemyID": 201,
+                    "timeToStart": 67
+                },
+                {
+                    "waveID":308,
+                    "enemyID": 200,
+                    "timeToStart": 70
                 }
+
             ]
         }
     ]
