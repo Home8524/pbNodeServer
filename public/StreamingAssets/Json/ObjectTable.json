@@ -37,42 +37,67 @@
         },
         {
             "id": 100,
-            "path":"Prefabs/Power Up",
+            "path": "Prefabs/Power Up",
             "poolCount": 30
         },
         {
-            "id":200,
-            "path":"Prefabs/Enemies/Enemy_straight_projectile",
+            "id": 200,
+            "path": "Prefabs/Enemies/Stage1_Enemy1",
             "poolCount": 30
         },
         {
-            "id":300,
-            "path":"Prefabs/EnemyWaves/Wave_1",
+            "id": 201,
+            "path": "Prefabs/Enemies/Stage1_Enemy2",
+            "poolCount": 30
+        },
+        {
+            "id": 202,
+            "path": "Prefabs/Enemies/Stage1_Enemy3",
+            "poolCount": 30
+        },
+        {
+            "id": 203,
+            "path": "Prefabs/Enemies/Stage1_Enemy4",
+            "poolCount": 30
+        },
+        {
+            "id": 204,
+            "path": "Prefabs/Enemies/Stage1_Enemy5",
+            "poolCount": 30
+        },
+        {
+            "id": 205,
+            "path": "Prefabs/Enemies/Stage1_Enemy6",
+            "poolCount": 30
+        },
+        {
+            "id": 300,
+            "path": "Prefabs/EnemyWaves/Wave_1",
             "poolCount": 10
         },
         {
-            "id":301,
-            "path":"Prefabs/EnemyWaves/Wave_2",
+            "id": 301,
+            "path": "Prefabs/EnemyWaves/Wave_2",
             "poolCount": 10
         },
         {
-            "id":302,
-            "path":"Prefabs/EnemyWaves/Wave_3",
+            "id": 302,
+            "path": "Prefabs/EnemyWaves/Wave_3",
             "poolCount": 10
         },
         {
-            "id":303,
-            "path":"Prefabs/EnemyWaves/Wave_4",
+            "id": 303,
+            "path": "Prefabs/EnemyWaves/Wave_4",
             "poolCount": 10
         },
         {
-            "id":304,
-            "path":"Prefabs/EnemyWaves/Wave_5",
+            "id": 304,
+            "path": "Prefabs/EnemyWaves/Wave_5",
             "poolCount": 10
         },
         {
-            "id":305,
-            "path":"Prefabs/EnemyWaves/Wave_6",
+            "id": 305,
+            "path": "Prefabs/EnemyWaves/Wave_6",
             "poolCount": 10
         }
     ]
