@@ -32,8 +32,43 @@
         },
         {
             "id": 7,
-            "path": "Prefabs/projectile/Enemy_Straight_Projetile",
+            "path": "Prefabs/projectile/Default_Enemy_Projectile",
             "poolCount": 50
+        },
+        {
+            "id": 8,
+            "path": "Prefabs/projectile/Cross_Enemy_Projectile",
+            "poolCount": 50
+        },
+        {
+            "id": 9,
+            "path": "Prefabs/projectile/Eight_Enemy_Projectile",
+            "poolCount": 50
+        },
+        {
+            "id": 10,
+            "path": "Prefabs/projectile/Tracking_Enemy_Projectile",
+            "poolCount": 50
+        },
+        {
+            "id": 11,
+            "path": "Prefabs/projectile/BossBullet1",
+            "poolCount": 50
+        },
+        {
+            "id": 12,
+            "path": "Prefabs/projectile/BossBullet2",
+            "poolCount": 50
+        },
+        {
+            "id": 13,
+            "path": "Prefabs/projectile/BossBullet3",
+            "poolCount": 50
+        },
+        {
+            "id": 14,
+            "path": "Prefabs/projectile/boss1BulletGroup",
+            "poolCount": 5
         },
         {
             "id": 100,
@@ -69,6 +104,11 @@
             "id": 205,
             "path": "Prefabs/Enemies/Stage1_Enemy6",
             "poolCount": 30
+        },
+        {
+            "id": 206,
+            "path": "Prefabs/Enemies/Stage1_Boss",
+            "poolCount": 1
         },
         {
             "id": 300,
