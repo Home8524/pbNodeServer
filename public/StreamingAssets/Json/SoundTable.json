@@ -9,6 +9,61 @@
             "id": 2,
             "path": "Audio/Hover",
             "volume": 1.0
+        },
+        {
+            "id": 100,
+            "path": "Audio/characterSelect",
+            "volume": 0.5
+        },
+        {
+            "id": 101,
+            "path": "Audio/stage1",
+            "volume": 0.5
+        },
+        {
+            "id": 102,
+            "path" : "Audio/entryBoss1",
+            "volume": 0.4
+        },
+        {
+            "id": 103,
+            "path" : "Audio/boss1",
+            "volume": 0.4
+        },
+        {
+            "id": 200,
+            "path" : "Audio/enemy_destroy",
+            "volume": 0.4
+        },
+        {
+            "id": 201,
+            "path" : "Audio/player_death",
+            "volume": 0.4
+        },
+        {
+            "id": 202,
+            "path" : "Audio/Boss/BossDestoryEff1",
+            "volume": 0.4
+        },
+        {
+            "id": 203,
+            "path" : "Audio/Boss/BossDestoryEff2",
+            "volume": 0.4
+        },
+        {
+            "id": 204,
+            "path" : "Audio/Boss/BossDestoryEff3",
+            "volume": 0.4
+        },
+        {
+            "id": 205,
+            "path" : "Audio/Boss/BossDefaultAttack",
+            "volume": 0.4
+        },
+        {
+            "id": 206,
+            "path" : "Audio/Boss/BossPatternAttack",
+            "volume": 0.4
         }
     ]
 }
