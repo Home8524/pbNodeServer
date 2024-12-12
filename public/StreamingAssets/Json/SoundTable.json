@@ -64,6 +64,31 @@
             "id": 206,
             "path" : "Audio/Boss/BossPatternAttack",
             "volume": 0.4
+        },
+        {
+            "id": 207,
+            "path" : "Audio/GameOver",
+            "volume": 0.4
+        },
+        {
+            "id": 208,
+            "path" : "Audio/Victory",
+            "volume": 0.4
+        },
+        {
+            "id":209,
+            "path": "Audio/Magic",
+            "volume": 1.0
+        },
+        {
+            "id":210,
+            "path": "Audio/Player_Skill_Razer",
+            "volume": 0.8
+        },
+        {
+            "id":211,
+            "path": "Audio/Player_Skill_Tornado",
+            "volume": 0.8
         }
     ]
 }

@@ -19,6 +19,24 @@
             "poolCount": 50
         },
         {
+            "id": 4,
+            "path": "Prefabs/VFX/Player1_Skill",
+            "name": "playerSkill1",
+            "poolCount": 1
+        },
+        {
+            "id": 5,
+            "path": "Prefabs/VFX/Player2_Skill",
+            "name": "playerSkill2",
+            "poolCount": 1
+        },
+        {
+            "id": 6,
+            "path": "Prefabs/VFX/Player3_Skill",
+            "name": "playerSkill3",
+            "poolCount": 1
+        },
+        {
             "id": 100,
             "path": "Prefabs/VFX/Lazer1_Hit",
             "name": "Lazer1_Hit",
@@ -53,6 +71,12 @@
             "path": "Prefabs/VFX/Plasma4_Hit",
             "name": "Plasma4_Hit",
             "poolCount": 50
+        },
+        {
+            "id": 200,
+            "path": "Prefabs/VFX/Skill_Full_Charge",
+            "name": "Skill_Charge",
+            "poolCount": 1
         }
     ]
 }
