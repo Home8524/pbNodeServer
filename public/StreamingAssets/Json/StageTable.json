@@ -104,6 +104,235 @@
                 }
 
             ]
+        },
+        {
+            "enemies": [
+                {
+                    "waveID": 305,
+                    "enemyID": 207,
+                    "timeToStart": 0
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 208,
+                    "timeToStart": 3
+                },
+                {
+                    "waveID": 303,
+                    "enemyID": 207,
+                    "timeToStart": 6
+                },
+                {
+                    "waveID": 304,
+                    "enemyID": 207,
+                    "timeToStart": 11
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 209,
+                    "timeToStart": 16
+                },
+                {
+                    "waveID": 307,
+                    "enemyID": 210,
+                    "timeToStart": 19
+                },
+                {
+                    "waveID": 301,
+                    "enemyID": 207,
+                    "timeToStart": 23
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 210,
+                    "timeToStart": 24
+                },
+                {
+                    "waveID": 305,
+                    "enemyID": 208,
+                    "timeToStart": 26
+                },
+                {
+                    "waveID": 303,
+                    "enemyID": 209,
+                    "timeToStart": 33
+                },
+                {
+                    "waveID": 307,
+                    "enemyID": 211,
+                    "timeToStart": 36
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 207,
+                    "timeToStart": 39
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 211,
+                    "timeToStart": 40
+                },
+                {
+                    "waveID": 306,
+                    "enemyID": 210,
+                    "timeToStart": 41
+                },
+                {
+                    "waveID": 304,
+                    "enemyID": 212,
+                    "timeToStart": 46
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 207,
+                    "timeToStart": 50
+                },
+                {
+                    "waveID": 301,
+                    "enemyID": 207,
+                    "timeToStart": 55
+                },
+                {
+                    "waveID": 303,
+                    "enemyID": 208,
+                    "timeToStart": 58
+                },
+                {
+                    "waveID": 307,
+                    "enemyID": 210,
+                    "timeToStart": 61
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 209,
+                    "timeToStart": 63
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 208,
+                    "timeToStart": 67
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 213,
+                    "timeToStart": 73
+                }
+            ]
+        },
+        {
+            "enemies": [
+                {
+                    "waveID": 303,
+                    "enemyID": 214,
+                    "timeToStart": 0
+                },
+                {
+                    "waveID": 305,
+                    "enemyID": 215,
+                    "timeToStart": 3
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 214,
+                    "timeToStart": 6
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 214,
+                    "timeToStart": 11
+                },
+                {
+                    "waveID": 304,
+                    "enemyID": 216,
+                    "timeToStart": 16
+                },
+                {
+                    "waveID": 307,
+                    "enemyID": 217,
+                    "timeToStart": 19
+                },
+                {
+                    "waveID": 301,
+                    "enemyID": 214,
+                    "timeToStart": 23
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 217,
+                    "timeToStart": 24
+                },
+                {
+                    "waveID": 305,
+                    "enemyID": 215,
+                    "timeToStart": 26
+                },
+                {
+                    "waveID": 303,
+                    "enemyID": 219,
+                    "timeToStart": 33
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 216,
+                    "timeToStart": 36
+                },
+                {
+                    "waveID": 306,
+                    "enemyID": 217,
+                    "timeToStart": 39
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 218,
+                    "timeToStart": 40
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 214,
+                    "timeToStart": 41
+                },
+                {
+                    "waveID": 304,
+                    "enemyID": 219,
+                    "timeToStart": 46
+                },
+                {
+                    "waveID": 303,
+                    "enemyID": 214,
+                    "timeToStart": 50
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 214,
+                    "timeToStart": 55
+                },
+                {
+                    "waveID": 305,
+                    "enemyID": 215,
+                    "timeToStart": 58
+                },
+                {
+                    "waveID": 307,
+                    "enemyID": 217,
+                    "timeToStart": 61
+                },
+                {
+                    "waveID": 302,
+                    "enemyID": 216,
+                    "timeToStart": 63
+                },
+                {
+                    "waveID": 300,
+                    "enemyID": 215,
+                    "timeToStart": 67
+                },
+                {
+                    "waveID": 308,
+                    "enemyID": 220,
+                    "timeToStart": 73
+                }
+            ]
         }
+                   
     ]
 }

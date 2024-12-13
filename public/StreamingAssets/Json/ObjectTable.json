@@ -76,6 +76,26 @@
             "poolCount": 30
         },
         {
+            "id": 101,
+            "path": "Prefabs/projectile/prevBullet1",
+            "poolCount": 30
+        },
+        {
+            "id": 102,
+            "path": "Prefabs/projectile/prevBullet2",
+            "poolCount": 30
+        },
+        {
+            "id": 103,
+            "path": "Prefabs/projectile/prevBullet3",
+            "poolCount": 30
+        },
+        {
+            "id": 104,
+            "path": "Prefabs/projectile/prevBullet4",
+            "poolCount": 30
+        },
+        {
             "id": 200,
             "path": "Prefabs/Enemies/Stage1_Enemy1",
             "poolCount": 30
@@ -108,6 +128,76 @@
         {
             "id": 206,
             "path": "Prefabs/Enemies/Stage1_Boss",
+            "poolCount": 1
+        },
+        {
+            "id": 207,
+            "path": "Prefabs/Enemies/Stage2_Enemy1",
+            "poolCount": 30
+        },
+        {
+            "id": 208,
+            "path": "Prefabs/Enemies/Stage2_Enemy2",
+            "poolCount": 30
+        },
+        {
+            "id": 209,
+            "path": "Prefabs/Enemies/Stage2_Enemy3",
+            "poolCount": 30
+        },
+        {
+            "id": 210,
+            "path": "Prefabs/Enemies/Stage2_Enemy4",
+            "poolCount": 30
+        },
+        {
+            "id": 211,
+            "path": "Prefabs/Enemies/Stage2_Enemy5",
+            "poolCount": 30
+        },
+        {
+            "id": 212,
+            "path": "Prefabs/Enemies/Stage2_Enemy6",
+            "poolCount": 30
+        },
+        {
+            "id": 213,
+            "path": "Prefabs/Enemies/Stage2_Boss",
+            "poolCount": 1
+        },
+        {
+            "id": 214,
+            "path": "Prefabs/Enemies/Stage3_Enemy1",
+            "poolCount": 30
+        },
+        {
+            "id": 215,
+            "path": "Prefabs/Enemies/Stage3_Enemy2",
+            "poolCount": 30
+        },
+        {
+            "id": 216,
+            "path": "Prefabs/Enemies/Stage3_Enemy3",
+            "poolCount": 30
+        },
+        {
+            "id": 217,
+            "path": "Prefabs/Enemies/Stage3_Enemy4",
+            "poolCount": 30
+        },
+        {
+            "id": 218,
+            "path": "Prefabs/Enemies/Stage3_Enemy5",
+            "poolCount": 30
+        },
+        {
+            "id": 219,
+            "path": "Prefabs/Enemies/Stage3_Enemy6",
+            "poolCount": 30
+        },
+        {
+            "id": 220,
+            "path": "Prefabs/Enemies/Stage3_Boss",
             "poolCount": 1
         },
         {
