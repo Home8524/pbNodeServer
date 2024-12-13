@@ -28,7 +28,8 @@ router.get('/getData', async (req, res) => {
             if (error) {
                 console.error(`Error fetching data for school ${school}:`, error);
             } else {
-                schoolResults[school] = data; // school 값을 키로 사용하여 데이터 저장
+                let key = 'school'+school;
+                schoolResults[key] = data; // school 값을 키로 사용하여 데이터 저장
             }
         }
 
