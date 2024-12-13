@@ -28,7 +28,7 @@ router.get('/getData', async (req, res) => {
             if (error) {
                 console.error(`Error fetching data for school ${school}:`, error);
             } else {
-                let key = 'school'+school;
+                let key = 'school' + school;
                 schoolResults[key] = data; // school 값을 키로 사용하여 데이터 저장
             }
         }
@@ -41,6 +41,36 @@ router.get('/getData', async (req, res) => {
         });
     } catch (err) {
         console.error(err);
+        return res.json({
+            message: 'Something went wrong while fetching data',
+            error: err.message
+        });
+    }
+});
+
+router.post('/addData', async (req, res) => {
+    try {
+        const requestData = req.body;
+        let name = requestData.name;
+        let score = requestData.score;
+        let school = requestData.school;
+
+        const { data, error } = await supabase
+            .from('scoreboard')  // 테이블 이름
+            .insert([
+                { name, score, school }  // 추가할 데이터
+            ]);
+
+        if (error) {
+            console.error("Error adding score:", error);
+        } else {
+            console.log("Score added successfully:", data);
+        }
+        return res.json({
+            message: 'Data update successfully!',
+        });
+    } catch (err) {
+        console.err(err);
         return res.json({
             message: 'Something went wrong while fetching data',
             error: err.message
