@@ -7,7 +7,7 @@ router.get('/getData', async (req, res) => {
         // Supabase에서 상위 30개의 name과 score만 가져오기
         const { data, error } = await supabase
             .from('scoreboard')  // 데이터를 가져올 테이블명
-            .select('name, score')  // name과 score만 선택
+            .select('name, score, school')  // name, score, school만 선택
             .order('score', { ascending: false })  // score를 기준으로 내림차순 정렬
             .limit(30);  // 상위 30개 데이터만 가져오기
 
