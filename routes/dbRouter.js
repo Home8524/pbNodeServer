@@ -1,27 +1,42 @@
 const express = require('express');
 const router = express.Router();
-const supabase = require('../db/supabase');  
+const supabase = require('../db/supabase');
 
 router.get('/getData', async (req, res) => {
     try {
-        // Supabase에서 상위 30개의 name과 score만 가져오기
-        const { data, error } = await supabase
-            .from('scoreboard')  // 데이터를 가져올 테이블명
-            .select('name, score, school')  // name, score, school만 선택
-            .order('score', { ascending: false })  // score를 기준으로 내림차순 정렬
-            .limit(30);  // 상위 30개 데이터만 가져오기
+        // 전체 상위 30개 데이터 가져오기
+        const { data: overallData, error: overallError } = await supabase
+            .from('scoreboard')
+            .select('name, score, school')
+            .order('score', { ascending: false })
+            .limit(30);
 
-        if (error) {
-            return res.json({
-                message: 'Error fetching data from Supabase',
-                error: error.message
-            });
+        if (overallError) {
+            console.error("Error fetching overall data:", overallError);
+        }
+
+        // school별 상위 30개 데이터 가져오기
+        const schoolResults = {};
+        for (let school = 0; school <= 2; school++) {
+            const { data, error } = await supabase
+                .from('scoreboard')
+                .select('name, score, school')
+                .eq('school', school)  // 특정 school 값 필터링
+                .order('score', { ascending: false })
+                .limit(30);
+
+            if (error) {
+                console.error(`Error fetching data for school ${school}:`, error);
+            } else {
+                schoolResults[school] = data; // school 값을 키로 사용하여 데이터 저장
+            }
         }
 
         // 데이터를 클라이언트에 응답
         return res.json({
             message: 'Data fetched successfully!',
-            receivedData: data
+            allTop30Data: overallData,
+            schoolTopData: schoolResults
         });
     } catch (err) {
         console.error(err);
