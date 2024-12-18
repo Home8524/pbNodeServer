@@ -67,8 +67,43 @@
         },
         {
             "id": 14,
-            "path": "Prefabs/projectile/boss1BulletGroup",
+            "path": "Prefabs/projectile/BossBullet4",
             "poolCount": 5
+        },
+        {
+            "id": 15,
+            "path": "Prefabs/projectile/Boss2Bullet1",
+            "poolCount": 50
+        },
+        {
+            "id": 16,
+            "path": "Prefabs/projectile/Boss2Bullet2",
+            "poolCount": 50
+        },
+        {
+            "id": 17,
+            "path": "Prefabs/projectile/MeteorPart",
+            "poolCount": 50
+        },
+        {
+            "id": 18,
+            "path": "Prefabs/projectile/Boss2Bullet3",
+            "poolCount": 50
+        },
+        {
+            "id": 19,
+            "path": "Prefabs/projectile/Boss3Bullet1",
+            "poolCount": 50
+        },
+        {
+            "id": 20,
+            "path": "Prefabs/projectile/Boss3Bullet2",
+            "poolCount": 50
+        },
+        {
+            "id": 21,
+            "path": "Prefabs/projectile/Boss3Bullet3",
+            "poolCount": 50
         },
         {
             "id": 100,

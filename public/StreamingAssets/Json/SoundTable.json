@@ -2,32 +2,37 @@
     "sounds": [
         {
             "id": 1,
-            "path": "Audio/Click",
+            "path": "Audio/ui/Click",
             "volume": 1.0
         },
         {
             "id": 2,
-            "path": "Audio/Hover",
+            "path": "Audio/ui/Hover",
             "volume": 1.0
         },
         {
+            "id": 3,
+            "path" : "Audio/ui/Input_Click",
+            "volume": 1
+        },
+        {
             "id": 100,
-            "path": "Audio/characterSelect",
+            "path": "Audio/bgm/characterSelect",
             "volume": 0.5
         },
         {
             "id": 101,
-            "path": "Audio/stage1",
+            "path": "Audio/bgm/stage1",
             "volume": 0.5
         },
         {
             "id": 102,
-            "path" : "Audio/entryBoss1",
+            "path" : "Audio/boss/entryBoss1",
             "volume": 0.4
         },
         {
             "id": 103,
-            "path" : "Audio/boss1",
+            "path" : "Audio/bgm/boss1_Battle_BGM",
             "volume": 0.4
         },
         {
@@ -89,6 +94,71 @@
             "id":211,
             "path": "Audio/Player_Skill_Tornado",
             "volume": 0.8
+        },
+        {
+            "id": 212,
+            "path" : "Audio/VOICE_ROBOTIC_MALE_1_stereo",
+            "volume": 0.4
+        },
+        {
+            "id": 213,
+            "path" : "Audio/VOICE_ROBOTIC_MALE_2_stereo",
+            "volume": 0.4
+        },
+        {
+            "id": 214,
+            "path" : "Audio/VOICE_ROBOTIC_MALE_3_stereo",
+            "volume": 0.4
+        },
+        {
+            "id": 215,
+            "path" : "Audio/MeteorDestroy",
+            "volume": 0.8
+        },
+        {
+            "id": 216,
+            "path" : "Audio/boss/Boss2_Pattern_Charge",
+            "volume": 0.7
+        },
+        {
+            "id": 217,
+            "path" : "Audio/EXPLOSION_Distorted_04_Long_stereo",
+            "volume": 0.5
+        },
+        {
+            "id": 218,
+            "path" : "Audio/boss/Boss2_Bullet_Born",
+            "volume": 1
+        },
+        {
+            "id": 219,
+            "path" : "Audio/boss/Boss2_Bullet_Move",
+            "volume": 0.5
+        },
+        {
+            "id": 220,
+            "path" : "Audio/boss/Boss3_Target",
+            "volume": 1
+        },
+        {
+            "id": 221,
+            "path" : "Audio/boss/Boss3_Target_Boom",
+            "volume": 1
+        },
+        {
+            "id": 222,
+            "path" : "Audio/boss/Boss3_Orb_Born",
+            "volume": 1
+        },
+        {
+            "id": 223,
+            "path" : "Audio/Congratulations",
+            "volume": 1
+        },
+        {
+            "id": 224,
+            "path" : "Audio/Magic_Deep",
+            "volume": 1
         }
     ]
 }

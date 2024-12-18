@@ -77,6 +77,30 @@
             "path": "Prefabs/VFX/Skill_Full_Charge",
             "name": "Skill_Charge",
             "poolCount": 1
+        },
+        {
+            "id": 300,
+            "path": "Prefabs/VFX/eff_Boss2_0",
+            "name": "Boss2EFFECT",
+            "poolCount": 1
+        },
+        {
+            "id": 301,
+            "path": "Prefabs/VFX/eff_Boss3_1",
+            "name": "Boss3EFFECT1",
+            "poolCount": 1
+        },
+        {
+            "id": 302,
+            "path": "Prefabs/VFX/eff_Boss3_2",
+            "name": "Boss3EFFECT2",
+            "poolCount": 1
+        },
+        {
+            "id": 303,
+            "path": "Prefabs/VFX/eff_Boss3_3",
+            "name": "Boss3EFFECT3",
+            "poolCount": 1
         }
     ]
 }
