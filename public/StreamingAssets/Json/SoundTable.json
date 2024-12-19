@@ -32,8 +32,28 @@
         },
         {
             "id": 103,
-            "path" : "Audio/bgm/boss1_Battle_BGM",
+            "path" : "Audio/bgm/boss1",
             "volume": 0.4
+        },
+        {
+            "id": 104,
+            "path": "Audio/bgm/stage2",
+            "volume": 0.7
+        },
+        {
+            "id": 105,
+            "path": "Audio/bgm/stage3",
+            "volume": 0.7
+        },
+        {
+            "id": 106,
+            "path": "Audio/bgm/boss2",
+            "volume": 0.7
+        },
+        {
+            "id": 107,
+            "path": "Audio/bgm/boss3",
+            "volume": 0.7
         },
         {
             "id": 200,
