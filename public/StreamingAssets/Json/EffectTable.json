@@ -37,6 +37,42 @@
             "poolCount": 1
         },
         {
+            "id": 7,
+            "path": "Prefabs/VFX/Boss1_Hit_Eff",
+            "name": "Boss1_Hit_Eff",
+            "poolCount": 1
+        },
+        {
+            "id": 8,
+            "path": "Prefabs/VFX/Boss2_Hit_Eff",
+            "name": "Boss2_Hit_Eff",
+            "poolCount": 1
+        },
+        {
+            "id": 9,
+            "path": "Prefabs/VFX/Boss3_Hit_Eff",
+            "name": "Boss3_Hit_Eff",
+            "poolCount": 1
+        },
+        {
+            "id": 10,
+            "path": "Prefabs/VFX/Boss1_Destroy",
+            "name": "Boss1_Destroy",
+            "poolCount": 1
+        },
+        {
+            "id": 11,
+            "path": "Prefabs/VFX/Boss2_Destroy",
+            "name": "Boss2_Destroy",
+            "poolCount": 1
+        },
+        {
+            "id": 12,
+            "path": "Prefabs/VFX/Boss3_Destroy",
+            "name": "Boss3_Destroy",
+            "poolCount": 1
+        },
+        {
             "id": 100,
             "path": "Prefabs/VFX/Lazer1_Hit",
             "name": "Lazer1_Hit",

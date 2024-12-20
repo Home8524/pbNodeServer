@@ -131,6 +131,11 @@
             "poolCount": 30
         },
         {
+            "id": 105,
+            "path":"Prefabs/Enemies/Meteor",
+            "poolCount": 5
+        },
+        {
             "id": 200,
             "path": "Prefabs/Enemies/Stage1_Enemy1",
             "poolCount": 30
