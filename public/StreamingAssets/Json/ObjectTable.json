@@ -136,6 +136,26 @@
             "poolCount": 5
         },
         {
+            "id": 106,
+            "path":"Prefabs/Planet1",
+            "poolCount": 5
+        },
+        {
+            "id": 107,
+            "path":"Prefabs/Planet2",
+            "poolCount": 5
+        },
+        {
+            "id": 108,
+            "path":"Prefabs/Planet3",
+            "poolCount": 5
+        },
+        {
+            "id": 109,
+            "path": "Prefabs/Shield",
+            "poolCount": 30
+        },
+        {
             "id": 200,
             "path": "Prefabs/Enemies/Stage1_Enemy1",
             "poolCount": 30

@@ -23,7 +23,7 @@
         {
             "id": 101,
             "path": "Audio/bgm/stage1",
-            "volume": 0.5
+            "volume": 0.7
         },
         {
             "id": 102,
@@ -33,7 +33,7 @@
         {
             "id": 103,
             "path" : "Audio/bgm/boss1",
-            "volume": 0.4
+            "volume": 0.7
         },
         {
             "id": 104,
@@ -179,6 +179,11 @@
             "id": 224,
             "path" : "Audio/Magic_Deep",
             "volume": 1
+        },
+        {
+            "id": 225,
+            "path" : "Audio/Shield",
+            "volume": 0.7
         }
     ]
 }
